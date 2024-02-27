@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gossip Girl</title>
+    <link rel="icon" href="icono.jpg" type="image/x-icon"> <!-- Reemplaza "icono.ico" con la ruta correcta de tu icono -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000  ;
+        }
+
+        header {
+            background-color: #47474A  ;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header img {
+            width: 100px; /* Tamaño de la imagen del header */
+            height: auto; /* Altura automática para mantener la proporción */
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 20px;
+            padding-left: 15px;
+            padding-right: 50%; /* Ajuste para el espacio a la derecha del menú */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav img {
+            width: 120px; /* Tamaño de la imagen del logo en el menú */
+            height: 120px; /* Altura de la imagen del logo en el menú */
+            border-radius: 50%; /* Hace que la imagen sea circular */
+            margin-right: 20px;
+            margin-left: 3%;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 10px;
+            margin-left: 60px; /* Ajuste para el espacio entre la imagen y las palabras en el menú */
+        }
+
+        section {
+            margin-top: 2%;
+            margin-left: 2%;
+            
+        }
+    
+/* Formulario */
+                body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #333; /* Borde del cuadro */
+            border-radius: 10px; /* Esquinas redondeadas */
+            background-color: #f4f4f4; /* Color de fondo */
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        label {
+            color: #333; /* Color del texto del label */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        div{
+            color: #fff;
+            flex-direction: column;
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="icono.jpg" alt="Logo circular de Gossip Girl"> <!-- Reemplaza "logo_circular.png" con la ruta correcta de tu logo circular -->
+            <div>
+                <a href="index.html">Inicio</a>
+                <a href="moda.html">Moda</a>
+                <a href="Belleza.html">Belleza</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <div>  
+        <h2>¡Escribinos ante cualquier consulta o novedad!</h2>
+        <p>Estamos aquí para ayudarte. Si tienes alguna pregunta o quieres compartir alguna novedad, no dudes en contactarnos. Te responderemos a la brevedad.</p>
+    </div>
+      
+    
+        
+    <section>
+        
+        <h2>Contacto</h2>
+        
+        <form action="pagina.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </section>
+
+</body>
+</html>
